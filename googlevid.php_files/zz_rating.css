@@ -1,0 +1,467 @@
+zzIFramePanelAverageStarRating {
+  height: 40px;
+  width: 120px;
+}
+
+zzIFramePanelRatingEditor, zzIFramePanelRatingDisplay {
+  height: 30px;
+  width: 100px;
+}
+
+zzIFramePanelVotingEditor, zzIFramePanelVotingDisplay {
+  height: 30px;
+  width: 100px;
+}
+
+zzIFramePanelAnnotationPanel {
+  height: 130px;
+  width: 460px;
+}
+
+zzIFramePanelNumRating {
+  height: 25px;
+  width: 100px;
+}
+
+zzIFramePanelRatingPanel {
+  height: 60px;
+  width: 300px;
+}
+
+textarea.zzTextEditor, textarea.zzTextEditorSaving, textarea.zzTextEditorSaved {
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  height: 4em;
+  width: 100%;
+}
+
+textarea.zzTextEditor {
+  background-color: white;
+}
+
+textarea.zzTextEditorSaving {
+  background-color: azure;
+}
+
+textarea.zzTextEditorSaved {
+  background-color: azure;
+}
+
+a.zzCommentPanelEditLink {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.zzCommentPanelDeleteLink {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+table.zzCommentPanelGadget {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 83%;
+}
+
+input.zzCommentPanelGadgetSaveButton {
+  font-weight: bold;
+}
+
+input.zzCommentPanelGadgetCancelButton {
+  margin-left: 12px;
+}
+
+/**
+ * The Yes/No Voting Widget
+ */
+span.zzVotingEdit {
+}
+
+span.zzVotingDisplay {
+}
+
+span.zzVotingEdit span.zzVoteAffirmative {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+span.zzVotingEdit span.zzVoteAffirmativeActive {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+span.zzVotingEdit span.zzVoteNegative {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+span.zzVotingEdit span.zzVoteNegativeActive {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+span.zzVotingDisplay span.zzVoteAffirmative {
+  display: none;
+}
+
+
+span.zzVotingDisplay span.zzVoteAffirmativeActive {
+  display: inline;
+}
+
+span.zzVotingDisplay span.zzVoteNegative {
+  display: none;
+}
+
+span.zzVotingEdit span.zzVoteNegativeActive {
+  display: inline;
+}
+
+/**
+ *  The Rating Description widget
+ */
+ul.zzRatingDescription {
+  list-style-type: none;
+  display: inline;
+}
+
+/**
+ *  The Rating Description widget template
+ */
+ul.zzRatingDescriptionTemplate {
+  display: none;
+}
+
+ul.zzRatingDescription li.zzRatingText {
+  display: none;
+}
+
+ul.zzRatingDescription li.zzRatingTextActive {
+  display: inline;
+}
+
+/**
+ *  The Rating Description widget
+ */
+span.zzRatingDescription {
+  font-family: arial,sans-serif;
+}
+
+
+/**
+ *  The AggeregateRatingStatsGadget style for the numeric display
+ */
+span.zzAggregateRatingStat {
+}
+
+
+/**
+ *  The AggeregateRatingStatsGadget style for the text description
+ */
+span.zzAggregateRatingStatDescriptionText {
+  margin-left: 5px;
+}
+
+/**
+ *  The Rating Editor widget
+ */
+span.zzRatingEdit img.zzLeftEdge {
+  width: 17px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+span.zzRatingEdit img.zzLeftEdgeHidden {
+  width: 17px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+}
+
+span.zzRatingEdit img.zzCancel {
+  width: 17px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+span.zzRatingEdit img.zzCancelHidden {
+  width: 17px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+}
+
+span.zzRatingEdit img.zzStar {
+  width: 11px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+span.zzRatingEdit img.zzRightEdge {
+  width: 5px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+
+/**
+ *  The Display-only widget
+ */
+span.zzRatingDisplay img.zzStar {
+  width: 10px;
+  height: 9px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+/**
+ * The RatingPanel gadget.
+ */
+table.zzRatingPanel {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+table.zzRatingPanel span.zzRatingDescription {
+  padding-left: 18px;
+}
+
+table.zzRatingPanel span.zzAggregateRatingStat, table.zzRatingPanel span.zzAggregateRatingStatDescription {
+  color: #6F6F6F;
+}
+
+table.zzRatingPanel td.zzAggregateRating {
+  text-align: center;
+}
+
+/**
+ *  The Aggregate Star Rating widget
+ */
+span.zzAggregateRating img.zzStar {
+  width: 16px;
+  height: 15px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+
+/**
+ *  The Aggregate Star Rating widget
+ */
+span.zzAggregateRating img.zzSmallStar {
+  width: 10px;
+  height: 9px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+
+/**
+ *  The Comment Thread gadget
+ */
+div.zzCommentThreadGadget {
+  padding: 2px;
+  background-color: white;
+  border: 1px solid #CCCCCC;
+  width: 410px;
+  display: block;
+}
+
+div.zzCommentThreadSeparator {
+  border-bottom: 1px solid #AAAAAA;
+  height: 1px;
+  width: 408px;
+}
+
+/**
+ * The Comments list widget.
+ */
+div.zzCommentList {
+  padding: 4px;
+  overflow: auto;
+  width: 400px;
+  height: 250px;
+  background-color: white;
+}
+
+div.zzCommentListLoading {
+  font-size: 18px;
+}
+
+div.zzCommentListPagination {
+  background-color: #EEEEEE;
+  border: 1px solid gray;
+  float: left;
+  margin-top: 5px;
+  padding: 2px 6px;
+}
+
+div.zzCommentListPaginationMessage {
+  float: left;
+}
+
+div.zzCommentListNavLink {
+  color: blue;
+  cursor: default;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+/**
+ * The Comment display widget.
+ */
+div.zzCommentDisplay {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+p.zzCommentDisplayTimestampSpamLink {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+span.zzCommentDisplayTimestamp {
+  color: #AAAAAA;
+  margin-right: 10px;
+}
+
+/**
+ * The report spam widget.
+ */
+span.zzReportSpamLink {
+  color: blue;
+  cursor: default;
+  text-decoration: underline;
+}
+
+/**
+ * The Comment Poster widget.
+ */
+div.zzCommentPoster {
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+div.zzCommentPosterSignInLink {
+}
+
+div.zzCommentPosterCollapseLink {
+  color: blue;
+  cursor: default;
+  padding-bottom: 2px;
+  text-decoration: underline;
+}
+
+img.zzCommentPosterCollapseLinkImage {
+  margin-right: 3px;
+}
+
+/**
+ * The Tab Bar UI.
+ */
+div.zzTabBar {
+  background-color: white;
+  display: block;
+  padding: 6px;
+}
+
+div.zzTab, div.zzTabSelected {
+  display: inline;
+  padding: 2px;
+  margin: 0px;
+  border: 1px solid #c5d7ef;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+  color: #3366cc;
+  font-weight: bold;
+}
+
+div.zzTab {
+  background-color: #e5ecf9;
+}
+
+div.zzTabSelected {
+  background-color: white;
+  border-bottom: 0px;
+}
+
+div.zzTabSpacer, div.zzTabEndSpacer {
+  display: inline;
+  background-color: white;
+  cursor: default;
+  font-weight: bold;
+  padding: 2px;
+  border: 0px;
+  border-bottom: 1px solid #c5d7ef;
+}
+
+span.zzNumUsersFoundThisHelpful {
+  display: none;
+}
+
+span.zzNumUsersFoundThisHelpfulActive {
+  display: inline;
+}
+
+/**
+ * Styles for the link gadget.
+ */
+
+.zzLinkGadgetUI {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.zzLinkGadgetUINoLink {
+  color: blue;
+}
+
+.zzSearchResultsGadgetResults {
+  border: 1px solid #aaaaaa;
+  padding: 2px;
+}
+
+.zzSearchResultsGadgetSeparator {
+  padding: 2px;
+}
+
+
+/*
+     FILE ARCHIVED ON 17:21:15 May 23, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:40:03 May 07, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 243.202
+  exclusion.robots: 0.187
+  exclusion.robots.policy: 0.174
+  RedisCDXSource: 14.311
+  esindex: 0.013
+  LoadShardBlock: 202.261 (3)
+  PetaboxLoader3.datanode: 215.729 (4)
+  CDXLines.iter: 20.603 (3)
+  load_resource: 63.999
+  PetaboxLoader3.resolve: 30.914
+*/

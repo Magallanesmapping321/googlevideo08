@@ -1,0 +1,48 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+var serverBase = "http://web.archive.org/web/20080524105015/http://www.google.com";var apiKey = "";var locale = "en";window.js_messages={};(function() { 
+var d=document,_P="prototype";function e(a,b,c){if(b.length==0)return a;var f=a.indexOf(b);while(f>-1){a=a.replace(b,c);f=a.indexOf(b)}return a}var g=window.js_messages;function h(a,b){a=j(a);if(b&&b.length)for(var c=0;c<b.length;c++)a=e(a,"%"+(c+1),b[c]);return a}function j(a){if(g&&g[a])return g[a];return a};var k=window,l;if(d.getElementById)l=function(a){return d.getElementById(a)};else if(d.all)l=function(a){return d.all[a]};else l=function(){return undefined};elid=function(a){return typeof a=="string"?l(a):a};if(!k.google)k.google={};var m=k.google;if(!m.share)m.share={};share=m.share;m.sharing=share;var n=k.serverBase,o=k.apiKey,p=k.locale;share.SharingWidget=function(a,b){this.m=d.location.href;this.o=1;this.d=null;this.l=null;this.a={};this.h=0;this.b=0;if(b){this.a=b;if(this.a.googleinternal==
+true)this.h=1;if(this.a.specifiedPageViewed==true&&this.a.url){var c=new Image;c.src=n+"/s2/sharing/share?pub_action=vi&url ="+encodeURIComponent(this.a.url)+"&key="+o}if(this.a.defaultTab=="email")this.b=1}this.a.isEmbedded=true;var f=elid(a);if(f==null){var i=h("%1 does not exist!",[a]);alert(i);return}this.k(f)};var q=n+"/s2/sharing/resources/",r='<img src="'+q+'static/images/email_share_button.png"/>',s=r.replace(".png","_unbranded.png"),t=[j("Share"),j("Email")],u=[j("Share"),j("Email")],v=";width:16px;height:16px;margin:-1px 0 0 1px;//margin:-2px 3px -1px -18px;//position:absolute;background:url("+
+q+"static/images/icon_share.gif) no-repeat left center;} html>body span.google-share-b-icon{background-image:url("+q+"static/images/icon_share.png);margin:-3px 3px -1px -8px;}",w="a.google-email-b{font-family:arial,sans-serif;display:-moz-inline-box;display:inline-block;position:relative;padding:1px 5px 1px 18px;margin:2px 0 0;font-size:10px;text-decoration:none;color:#03c;background:#fff url("+q+"static/images/icon_email.gif) no-repeat 1px center;border:1px solid #999;} a.google-email-b:hover{border:1px solid #666;background-color:#eee;text-decoration:none;}",
+x="a.google-share-l{height:16px;padding:2px 4px 0 18px;background:url("+q+"static/images/icon_share.gif) no-repeat left center;} html>body a.google-share-l{background-image:url("+q+"static/images/icon_share.png);}",y="a.google-email-l{height:16px;padding:2px 4px 0 18px;background:url("+q+"static/images/icon_email.gif) no-repeat left center;}",z=[x,y];share.SharingWidget[_P].j=function(a){if(a==0){var b="";b=typeof opera=="undefined"&&navigator.userAgent.indexOf("WebKit")==-1&&navigator.product=="Gecko"?
+"float:none":"float:left";return"a.google-share-b{font-family:arial,sans-serif;display:-moz-inline-box;display:inline-block;position:relative;padding:1px 3px 0 0;margin:0;font-size:10px;text-decoration:none;//padding:1px 3px 0 10px;//margin:0 0 0 10px;color:#03c;background:#fff;border:1px solid #999;} html>body a.google-share-b{margin:0 0 0 7px;} a.google-share-b:hover{border:1px solid #666;background:#eee;text-decoration:none;} span.google-share-b-icon{"+b+v}else return w};share.SharingWidget[_P].i=
+function(){if(this.d)return true;if(share.EmailWidget){this.d=new share.EmailWidget(this.a);return true}if(!this.l){var a=d.createElement("link");a.rel="stylesheet";a.href=q+"static/html/ShareWidgetStyle.css";d.getElementsByTagName("head")[0].appendChild(a);var b=d.createElement("script");b.src=n+"/s2/sharing/js?script=socialsharing&key="+o+"&hl="+p;d.body.appendChild(b);this.l=b}return false};share.SharingWidget[_P].c=function(a){if(!a)a=0;if(this.a.popup){if(this.d&&this.d.isVisible()){if(k.focus)this.a.altWindow.focus();
+return}var b=0,c=0;if(k.outerWidth){b=k.screenX+(k.outerWidth-762)/2;c=k.screenY+(k.outerHeight-402)/2}else{b=k.screenLeft+(d.body.clientWidth-742)/2;c=k.screenTop+(d.body.clientHeight-402)/2}this.a.altWindow=k.open("","_blank","height=390px,width=740px,toolbar=no,directories=no,left="+b+",top="+c+",status=no,menubar=no,scrollbars=no,resizable=1");this.a.popup=false}if(!this.i()){if(a>20){var f=j("Oops!  We seem to be experiencing network problems.\nPlease check your connection and try again.");k.alert(f);
+return}var i=this,A=Math.min(1<<a,1000);k.setTimeout(function(){i.c(a+1)},A);return}this.d.display()};share.SharingWidget[_P].k=function(a){this.n=a;if(a!=null)if(!this.a.retain_div_contents){var b=d.createElement("style"),c=d.createElement("a");c.title=u[this.b];c.href="#";var f=this;c.onclick=function(){f.c();return false};var i=this.a.linkText?this.a.linkText:t[this.b];if(this.h==1){a.innerHTML=s;a.style.cursor="pointer";a.onclick=function(){f.c()}}else if(this.a.buttonStyle)if(this.a.buttonStyle==
+"link"){c.appendChild(d.createTextNode(i));a.appendChild(c)}else if(this.a.buttonStyle=="linkAndIcon"){c.appendChild(d.createTextNode(i));c.className=["google-share-l","google-email-l"][this.b];this.g(b,z[this.b]);this.e(a,b);a.appendChild(c)}else this.f(a,b,c);else this.f(a,b,c)}else{var f=this;a.onclick=function(){f.c()}}};share.SharingWidget[_P].f=function(a,b,c){if(this.b==0){var f=d.createElement("span");f.className="google-share-b-icon";c.appendChild(f);c.appendChild(d.createTextNode(t[0]))}else c.appendChild(d.createTextNode(t[1]));
+c.className=["google-share-b","google-email-b"][this.b];this.g(b,this.j(this.b));this.e(a,b);a.appendChild(c)};share.SharingWidget[_P].g=function(a,b){a.setAttribute("type","text/css");if(a.styleSheet)a.styleSheet.cssText=b;else{var c=d.createTextNode(b);a.appendChild(c)}};share.SharingWidget[_P].e=function(a,b){var c=d.getElementsByTagName("head")[0];if(c)c.appendChild(b);else a.appendChild(b)};share.ShareWidget=share.SharingWidget;share.SharingButton=share.SharingWidget;
+ })();
+
+
+}
+/*
+     FILE ARCHIVED ON 10:50:15 May 24, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:40:03 May 07, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 102.124
+  exclusion.robots: 0.269
+  captures_list: 132.056
+  RedisCDXSource: 2.436
+  esindex: 0.013
+  PetaboxLoader3.datanode: 113.482 (4)
+  CDXLines.iter: 19.18 (3)
+  LoadShardBlock: 105.429 (3)
+  PetaboxLoader3.resolve: 34.633
+  exclusion.robots.policy: 0.25
+*/
