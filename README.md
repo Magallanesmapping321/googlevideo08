@@ -2,3 +2,5 @@
 yeah again another old homepage, This was the old google video homepage from 2008
 
 to setup just download it thats all
+
+Star ratings are broken btw
